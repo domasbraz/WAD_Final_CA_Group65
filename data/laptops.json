@@ -1,0 +1,182 @@
+[
+    {
+        "name": "HP Omen 17.3' Notebook QHD",
+        "price": "2000",
+        "category": "Laptops",
+        "details":
+        {
+            "brand": "HP",
+            "series": "OMEN",
+            "cpu": "Intel Core i7-13700HX",
+            "gpu": "NVIDIA GeForce RTX 4080",
+            "ram": "16 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "83H02UA#ABA-E"            
+        }
+    },
+
+    {
+        "name": "Lenovo Legion 5 15ARP8 15.6'",
+        "price": "900",
+        "category": "Laptops",
+        "details":
+        {
+            "brand": "Lenovo",
+            "series": "Legion",
+            "cpu": "AMD Ryzen 7",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "grey",
+            "model": "83EF0002US"
+        }
+    },
+
+    {
+        "name": "MSI Thin GF63 12UCX-898US 15.6'",
+        "price": "650",
+        "category": "Laptops",
+        "details":
+        {
+            "brand": "MSI",
+            "series": "Thin",
+            "cpu": "Intel Core i5 12th Gen.",
+            "gpu": "NVIDIA GeForce RTX 2050",
+            "ram": "8 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "THIN GF63 12UCX-898US"
+        }
+    },
+
+    {
+        "name": "Microsoft Surface Pro 8 13'",
+        "price": "650",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "Microsoft",
+            "series": "Surface",
+            "cpu": "Intel Core i5 11th Gen.",
+            "gpu": "Intel Iris Xe Graphics",
+            "ram": "8 GB",
+            "storage": "128 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Platinum",
+            "model": "IUR-00001, IUR00001",
+            "features": "Touchscreen, Convertible 2-in-1 Laptop/Tablet"
+        }
+    },
+
+    {
+        "name": "HP ProBook 440 G9 14'",
+        "price": "500",
+        "category": "Laptops",
+        "details":
+        {
+            "brand": "HP",
+            "series": "ProBook",
+            "cpu": "Intel Core i5 12th Gen.",
+            "gpu": "Intel Iris Xe Graphics",
+            "ram": "16 GB",
+            "storage": "256 GB SSD",
+            "os": "Windows 10 Pro",
+            "colour": "Silver",
+            "model": "6J8Q6UT#ABA"
+        }
+    },
+
+    {
+        "name": "Lenovo IdeaPad 1 15.6'",
+        "price": "200",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "Lenovo",
+            "series": "IdeaPad 1 15IGL7",
+            "cpu": "Intel Celeron N4020",
+            "gpu": "Intel UHD Graphics",
+            "ram": "4 GB",
+            "storage": "128 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Cloud Grey",
+            "model": "82V700B2UK"
+        }
+    },
+
+    {
+        "name": "Acer Aspire 3 A315-58 15.6'",
+        "price": "450",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "Acer",
+            "series": "Aspire 3",
+            "cpu": "Intel Core i3-1115G4",
+            "gpu": "Intel UHD Graphics",
+            "ram": "8 GB",
+            "storage": "256 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "NX.AT0EK.009"
+        }
+    },
+
+    {
+        "name": "MSI Cyborg 15.6'",
+        "price": "1000",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "MSI",
+            "series": "Cyborg 15",
+            "cpu": "Intel Core i7-12650H",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "A12VF-025UK"
+        }
+    },
+
+    {
+        "name": "Acer Nitro 5 AN515-58 15.6'",
+        "price": "1300",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "Acer",
+            "series": "Nitro 5 AN515-58",
+            "cpu": "Intel Core i7-12650H",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "NH.QM0EK.00C"
+        }
+    },
+
+    {
+        "name": "Dell Inspiron 15 3525 15.6'",
+        "price": "450",
+        "category": "Laptops",
+        "details": 
+        {
+            "brand": "Dell",
+            "series": "Inspiron 15 3525",
+            "cpu": "AMD Ryzen 5 5500U",
+            "gpu": "AMD Radeon Graphics",
+            "ram": "8 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Carbon Black",
+            "model": "i3525-A522BLK-PGB"
+        }
+    }
+]

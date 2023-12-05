@@ -1,7 +1,7 @@
 [
     {
         "name": "iPhone 13",
-        "price": "€759",
+        "price": "759",
         "category": "Smartphone",
         "details":
         {
@@ -19,7 +19,7 @@
 
     {
         "name": "iPhone 12 Pro",
-        "price": "€655",
+        "price": "655",
         "category": "Smartphone",
         "details":
         {
@@ -36,7 +36,7 @@
     
     {
         "name": "iPhone SE",
-        "price": "€549",
+        "price": "549",
         "category": "Smartphone",
         "details":
         {
@@ -53,7 +53,7 @@
     
     {
         "name": "Galaxy Z Fold5",
-        "price": "€2349",
+        "price": "2349",
         "category": "Smartphone",
         "details":
         {
@@ -70,7 +70,7 @@
     
     {
         "name": "Galaxy S23",
-        "price": "€899",
+        "price": "899",
         "category": "Smartphone",
         "details":
         {
@@ -87,7 +87,7 @@
     
     {
         "name": "Galaxy A34",
-        "price": "€409",
+        "price": "409",
         "category": "Smartphone",
         "details":
         {
@@ -104,7 +104,7 @@
     
     {
         "name": "Samsung Galaxy S21",
-        "price": "€335.99",
+        "price": "335.99",
         "category": "Smartphone",
         "details":
         {
@@ -121,7 +121,7 @@
     
     {
         "name": "Pixel 8",
-        "price": "€799",
+        "price": "799",
         "category": "Smartphone",
         "details":
         {
@@ -138,7 +138,7 @@
     
     {
         "name": "Xiaomi Redmi Note 12 Pro",
-        "price": "€399.99",
+        "price": "399.99",
         "category": "Smartphone",
         "details":
         {
@@ -155,7 +155,7 @@
     
     {
         "name": "Samsung Galaxy A14",
-        "price": "€179.99",
+        "price": "179.99",
         "category": "Smartphone",
         "details":
         {

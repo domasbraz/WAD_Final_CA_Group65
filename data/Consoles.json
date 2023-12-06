@@ -3,6 +3,7 @@
         "name": "Xbox original",
         "price": "60",
         "category": "Consoles",
+        "image":"xbox-console.jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -15,6 +16,7 @@
         "name": "Xbox 360",
         "price": "100",
         "category": "Consoles",
+        "image":"xbox360.jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -27,6 +29,7 @@
         "name": "Xbox one ",
         "price": "200",
         "category": "Consoles",
+        "image":"xbox-one,jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -39,6 +42,7 @@
         "name": "Xbox series X",
         "price": "500",
         "category": "Consoles",
+        "image":"xbox-series-x.png",
         "details":
         {
             "brand": "Microsoft",
@@ -52,6 +56,7 @@
         "name": "Playstation",
         "price": "40",
         "category": "Consoles",
+        "image":"ps1.jpg",
         "details":
         {
             "brand": "Sony",
@@ -64,6 +69,7 @@
         "name": "Playstation 2",
         "price": "100",
         "category": "Consoles",
+        "image":"ps2.jpg",
         "details":
         {
             "brand": "Sony",
@@ -76,6 +82,7 @@
         "name": "Playstation Portable " ,
         "price": "60",
         "category": "Consoles",
+        "image":"psp.jpg",
         "details":
         {
             "brand": "Sony",
@@ -88,6 +95,7 @@
         "name": "Playstation 3",
         "price": "150",
         "category": "Consoles",
+        "image":"ps3.jpg",
         "details":
         {
             "brand": "Sony",
@@ -100,6 +108,7 @@
         "name": "Playstation 4",
         "price": "200",
         "category": "Consoles",
+        "image":"ps4.jpg",
         "details":
         {
             "brand": "Sony",
@@ -112,6 +121,7 @@
         "name": "Playstation 5",
         "price": "500",
         "category": "Consoles",
+        "image":"PS5.jpg",
         "details":
         {
             "brand": "Sony",
@@ -124,6 +134,7 @@
         "name": "Ninetndo Gamecube",
         "price": "40",
         "category": "Consoles",
+        "image":"gamecube.jpg",
         "details":
         {
             "brand": "nintendo",
@@ -136,6 +147,7 @@
         "name": "Wii",
         "price": "150",
         "category": "Consoles",
+        "image":"wii.jpg",
         "details":
         {
             "brand": "nintendo",
@@ -148,6 +160,7 @@
         "name": "Ninetndo Switch",
         "price": "300",
         "category": "Consoles",
+        "image":"switch.jpg",
         "details":
         {
             "brand": "nintendo",

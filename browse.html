@@ -23,27 +23,56 @@
         <div id="display">
 
             <div id="search-area">
-                <input type="search" name="" id="searchBar">
+                <input type="search" name="" id="searchBar" placeholder="Search">
+                <button class="searchbtn" onclick="searchBar()">Search</button>
             </div>
 
             <br>
 
             <div id="data-col">
-                <!--div class="data-row">
-                    <table border="1">
+                <div class="data-row" id="errorMsg">
+                    <table>
                         <tr>
-                        <td><img src="" alt=""></td>
-                        <td class="text"><h1>this</h1><h2>€4000</h2></td>
+                        
+                        <td class="text" id="error"><h1>No items found matching the search!</h1></td>
                         </tr>
                     </table>
                 </div>
-                <div class="data-row">dasbkj</div>
-                <div class="data-row">dasbkj</div-->
             </div>
 
             <div id="options">
-            <div id="more" onclick="moreOptions()"><b>Search <br> Options <br> <myTag>≡</myTag></b></div>
-            extra options
+                <div id="more" onclick="moreOptions()"><b>Search <br> Options <br> <myTag>≡</myTag></b></div>
+                <p id="optionsContent">
+                    <br>
+                    <b>Category:</b>
+                    <br><br>
+                    <input type="radio" name="Category" id="" checked="checked" value="all">
+                    <label for="all" onclick="changeChecked('all')">All</label>
+                    <br>
+                    <input type="radio" name="Category" id="" value="laptops">
+                    <label for="laptops" onclick="changeChecked('laptops')">Laptops</label>
+                    <br>
+                    <input type="radio" name="Category" id="" value="smartphone">
+                    <label for="smartphone" onclick="changeChecked('smartphone')">Smart Phones</label>
+                    <br>
+
+                    <br><br>
+                    <b>Price:</b>
+                    <br><br>
+                    <input type="radio" name="Price" id="" checked="checked" value="any">
+                    <label for="any" onclick="changeChecked('any')">Any</label>
+                    <br>
+                    <input type="radio" name="Price" id="" value="low">
+                    <label for="low" onclick="changeChecked('low')">€40 - €500</label>
+                    <br>
+                    <input type="radio" name="Price" id="" value="mid">
+                    <label for="mid" onclick="changeChecked('mid')">€500 - €1000</label>
+                    <br>
+                    <input type="radio" name="Price" id="" value="high">
+                    <label for="high" onclick="changeChecked('high')">€1000+</label>
+                    <br>
+                </p>
+                <p class="btn"><button class="searchbtn" onclick="searchBar()">Search</button></p>
             </div>
 
 

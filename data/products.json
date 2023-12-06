@@ -1,0 +1,373 @@
+[
+    {
+        "name": "HP Omen 17.3' Notebook QHD",
+        "price": "2000",
+        "category": "Laptops",
+        "image": "hp_omen.jpg",
+        "details":
+        {
+            "brand": "HP",
+            "series": "OMEN",
+            "cpu": "Intel Core i7-13700HX",
+            "gpu": "NVIDIA GeForce RTX 4080",
+            "ram": "16 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "83H02UA#ABA-E"            
+        }
+    },
+
+    {
+        "name": "Lenovo Legion 5 15ARP8 15.6'",
+        "price": "900",
+        "category": "Laptops",
+        "image": "legion_5.jpg",
+        "details":
+        {
+            "brand": "Lenovo",
+            "series": "Legion",
+            "cpu": "AMD Ryzen 7",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "grey",
+            "model": "83EF0002US"
+        }
+    },
+
+    {
+        "name": "MSI Thin GF63 12UCX-898US 15.6'",
+        "price": "650",
+        "category": "Laptops",
+        "image": "msi_thin.jpg",
+        "details":
+        {
+            "brand": "MSI",
+            "series": "Thin",
+            "cpu": "Intel Core i5 12th Gen.",
+            "gpu": "NVIDIA GeForce RTX 2050",
+            "ram": "8 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "THIN GF63 12UCX-898US"
+        }
+    },
+
+    {
+        "name": "Microsoft Surface Pro 8 13'",
+        "price": "650",
+        "category": "Laptops",
+        "image": "surface.jpg",
+        "details": 
+        {
+            "brand": "Microsoft",
+            "series": "Surface",
+            "cpu": "Intel Core i5 11th Gen.",
+            "gpu": "Intel Iris Xe Graphics",
+            "ram": "8 GB",
+            "storage": "128 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Platinum",
+            "model": "IUR-00001, IUR00001",
+            "features": "Touchscreen, Convertible 2-in-1 Laptop/Tablet"
+        }
+    },
+
+    {
+        "name": "HP ProBook 440 G9 14'",
+        "price": "500",
+        "category": "Laptops",
+        "image": "probook.jpg",
+        "details":
+        {
+            "brand": "HP",
+            "series": "ProBook",
+            "cpu": "Intel Core i5 12th Gen.",
+            "gpu": "Intel Iris Xe Graphics",
+            "ram": "16 GB",
+            "storage": "256 GB SSD",
+            "os": "Windows 10 Pro",
+            "colour": "Silver",
+            "model": "6J8Q6UT#ABA"
+        }
+    },
+
+    {
+        "name": "Lenovo IdeaPad 1 15.6'",
+        "price": "200",
+        "category": "Laptops",
+        "image": "ideapad.avif",
+        "details": 
+        {
+            "brand": "Lenovo",
+            "series": "IdeaPad 1 15IGL7",
+            "cpu": "Intel Celeron N4020",
+            "gpu": "Intel UHD Graphics",
+            "ram": "4 GB",
+            "storage": "128 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Cloud Grey",
+            "model": "82V700B2UK"
+        }
+    },
+
+    {
+        "name": "Acer Aspire 3 A315-58 15.6'",
+        "price": "450",
+        "category": "Laptops",
+        "image": "aspire.jpg",
+        "details": 
+        {
+            "brand": "Acer",
+            "series": "Aspire 3",
+            "cpu": "Intel Core i3-1115G4",
+            "gpu": "Intel UHD Graphics",
+            "ram": "8 GB",
+            "storage": "256 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "NX.AT0EK.009"
+        }
+    },
+
+    {
+        "name": "MSI Cyborg 15.6'",
+        "price": "1000",
+        "category": "Laptops",
+        "image": "cyborg_15.webp",
+        "details": 
+        {
+            "brand": "MSI",
+            "series": "Cyborg 15",
+            "cpu": "Intel Core i7-12650H",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "A12VF-025UK"
+        }
+    },
+
+    {
+        "name": "Acer Nitro 5 AN515-58 15.6'",
+        "price": "1300",
+        "category": "Laptops",
+        "image": "nitro_5.jpg",
+        "details": 
+        {
+            "brand": "Acer",
+            "series": "Nitro 5 AN515-58",
+            "cpu": "Intel Core i7-12650H",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "NH.QM0EK.00C"
+        }
+    },
+
+    {
+        "name": "Dell Inspiron 15 3525 15.6'",
+        "price": "450",
+        "category": "Laptops",
+        "image": "inspiron.jpg",
+        "details": 
+        {
+            "brand": "Dell",
+            "series": "Inspiron 15 3525",
+            "cpu": "AMD Ryzen 5 5500U",
+            "gpu": "AMD Radeon Graphics",
+            "ram": "8 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Carbon Black",
+            "model": "i3525-A522BLK-PGB"
+        }
+    },
+
+    {
+        "name": "iPhone 13",
+        "price": "759",
+        "category": "Smartphone",
+        "image":"iphone13.jpg",
+        "details":
+        {
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "chip": "A15 Bionic with 4-core GPU for lightning-fast performance",
+            "storage": "128GB",
+            "colour": "Black",
+            "camera": "Dual-camera system for incredible low-light photos and videos",
+            "screen": "6.1-inch Super Retina XDR display",
+            "batteryLife":"19 hours"
+
+        }
+    },
+
+    {
+        "name": "iPhone 12 Pro",
+        "price": "655",
+        "category": "Smartphone",
+        "image":"iphone12pro.jpg",
+        "details":
+        {
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "chip": "A14 Bionic chip, the fastest chip ever in a smartphone",
+            "storage": "128GB",
+            "colour": "Graphite",
+            "camera": "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+            "screen": "6.1-inch",
+            "batteryLife": "17 hours"
+        }
+    },
+    
+    {
+        "name": "iPhone SE",
+        "price": "549",
+        "category": "Smartphone",
+        "image":"iphoneSE.jpg",
+        "details":
+        {
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "chip": "A15 Bionic chip with 4-core GPU",
+            "storage": "128 GB",
+            "colour": "Starlight",
+            "camera": "Single-camera system 12MP Main",
+            "screen": "4.7-inch Retina HD display",
+            "batteryLife": "9 hours"
+        }
+    },
+    
+    {
+        "name": "Galaxy Z Fold5",
+        "price": "2349",
+        "category": "Smartphone",
+        "image":"galaxyZFold5.JPG",
+        "details":
+        {
+            "brand": "Samsung",
+            "model": "Galaxy Z Fold5",
+            "chip": "Qualcomm Snapdragon 8 Gen 2",
+            "storage": "1TB",
+            "colour": "Phantom Black",
+            "camera": "50MP sensor, 1.0µm pixels",
+            "screen": "7.6-inch Main Display",
+            "batteryLife": "7 hours"
+        }
+    },
+    
+    {
+        "name": "Galaxy S23",
+        "price": "899",
+        "category": "Smartphone",
+        "image":"Galaxy S23.jpg",
+        "details":
+        {
+            "brand": "Samsung",
+            "model": "Galaxy S23",
+            "chip": "Qualcomm Snapdragon 8 Gen 2",
+            "storage": "128GB",
+            "colour": "Cream",
+            "camera": "50MP Rear Camera",
+            "screen": "6.1-inch FHD+ Dynamic AMOLED 2X",
+            "batteryLife": "24 hours"
+        }
+    },
+    
+    {
+        "name": "Galaxy A34",
+        "price": "409",
+        "category": "Smartphone",
+        "image":"Galaxy A34.jpg",
+        "details":
+        {
+            "brand": "Samsung",
+            "model": "Galaxy A34",
+            "chip": "2.6GHz MediaTek Dimensity 1080 octa-core processor",
+            "storage": "128GB",
+            "colour": "Awesome Graphite",
+            "camera": "48MP 1/2″ sensor, 0.8μm pixels, f/1.8 aperture lens, PDAF, OIS.",
+            "screen": "6.6-inch",
+            "batteryLife": "48 hours"
+        }
+    },
+    
+    {
+        "name": "Samsung Galaxy S21",
+        "price": "335.99",
+        "category": "Smartphone",
+        "image":"Samsung Galaxy S21.jpg",
+        "details":
+        {
+            "brand": "Samsung",
+            "model": "Samsung Galaxy S21",
+            "chip": "Qualcomm Snapdragon 888",
+            "storage": "128GB",
+            "colour": "Purple",
+            "camera": "64MP",
+            "screen": "6.2-inch",
+            "batteryLife": "8 hours"
+        }
+    },
+    
+    {
+        "name": "Pixel 8",
+        "price": "799",
+        "category": "Smartphone",
+        "image":"Pixel 8.jpg",
+        "details":
+        {
+            "brand": "Google",
+            "model": "Pixel 8",
+            "chip": "Google Tensor G3",
+            "storage": "128GB",
+            "colour": "Hazel",
+            "camera": "12MP ultra-wide camera",
+            "screen": "6.2-inch",
+            "batteryLife": "14 hours"
+        }
+    },
+    
+    {
+        "name": "Xiaomi Redmi Note 12 Pro",
+        "price": "399.99",
+        "category": "Smartphone",
+        "image":"Xiaomi Redmi Note 12 Pro.JPG",
+        "details":
+        {
+            "brand": "Xiaomi Corporation",
+            "model": "Xiaomi Redmi Note 12 Pro",
+            "chip": "Qualcomm Snapdragon 685",
+            "storage": "128GB",
+            "colour": "Midnight Black",
+            "camera": "50MP wide sensor,",
+            "screen": "6.67-inch",
+            "batteryLife": "30 hours"
+        }
+    },
+    
+    {
+        "name": "Samsung Galaxy A14",
+        "price": "179.99",
+        "category": "Smartphone",
+        "image":"Samsung Galaxy A14.jpg",
+        "details":
+        {
+            "brand": "Samsung",
+            "model": "Samsung Galaxy A14",
+            "chip": "Exynos 1330",
+            "storage": "64GB",
+            "colour": "Black",
+            "camera": "50MP Camera",
+            "screen": "6.6-inch",
+            "batteryLife": "48 hours"
+        }
+    }
+]

@@ -27,19 +27,21 @@
 #searchBar
 {
     outline: none;
-    border: 0px solid grey;
-    box-shadow: 3px 2px 3px #00000050;
+    border: 5px solid #00000000;
+    box-shadow: 3px 2px 3px #00000050, inset 0 0 10px #00000050;
     background-color: #d6c9bf;
     border-radius: 30px;
     font-size: 20px;
     padding: 1%;
+
 }
 
 #searchBar:hover, #searchBar:focus
 {
-    box-shadow: 4px 3px 4px #00000050;
+    box-shadow: 4px 3px 4px #00000050, inset 0 0 10px #00000050;
     transition: 0.5;
 }
+
 
 #data-col
 {
@@ -107,12 +109,15 @@ td > img:hover
     text-align: right;
     padding-right: 10%;
     z-index: -5;
+    visibility: visible;
+    box-shadow: 4px 3px 4px #00000070;
 
 }
 
 #more:hover
 {
     cursor: pointer;
+    box-shadow: 5px 4px 5px #00000080;
 }
 
 myTag
@@ -130,28 +135,83 @@ myTag
     border-top: 0;
     border-left: 0;
     left: -100px;
+    visibility: hidden;
+    box-shadow: 4px 3px 4px #00000070;
 }
 
-#con1
+#optionsContent
 {
-    position: fixed;
-    top:30%;
-    left:-200px;
-    border: 1px solid black;
-    width: 10%;
-    overflow: visible;
-    height: 10%;
+    padding-left: 1%;
 }
 
-#d1
+#optionsContent > b
 {
-    border: 1px solid blue;
-    width: 200%;
-    height: 50%;
-    background-color: white;
-    border-radius: 0px 20px 20px 0px;
+    font-size: 20px;
+}
+#optionsContent > label:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#optionsContent > label:active
+{
+    color: gray;
+}
+
+#options > p.btn
+{
     text-align: right;
+    margin: 2%;
 }
 
+.searchbtn
+{
+    border: 1px solid rgb(147, 219, 40);
+    background-color: rgb(147, 219, 40);
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px #00000050, inset 3px 2px 3px rgb(241, 251, 57);
+    font-size: 15px;
+}
 
+.searchbtn:hover
+{
+    cursor: pointer;
+}
+
+.searchbtn:active
+{
+    box-shadow: 4px 3px 4px #00000070, inset 3px 2px 3px rgb(241, 251, 57);
+    background-color: rgb(176, 249, 66);
+}
+
+#search-area > .searchbtn
+{
+    border-radius: 30px;
+    padding: 1.5%;
+    font-weight: bold;
+}
+
+#search-area > .searchbtn:hover
+{
+    box-shadow: 4px 3px 4px #00000070, inset 3px 2px 3px rgb(241, 251, 57);
+}
+
+#search-area > .searchbtn:active
+{
+    box-shadow: 6px 5px 6px #00000070, inset 3px 2px 3px rgb(241, 251, 57);
+}
+
+#errorMsg
+{
+    display: none;
+    text-align: center;
+}
+
+#error
+{
+    text-align: center;
+    color: red;
+}
 

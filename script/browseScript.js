@@ -11,8 +11,8 @@ $(document).ready(function() {
           $("#item" + index).append($("<table id='table" + index + "'></table>"));
           $("#table" + index).append($("<tr id='row" + index + "'></tr>"));
           var row = $("#row" + index);
-          row.append($("<td><img src='images/" + product.image + "' width='200px'></td>"));
-          row.append($("<td class='text' id='textData" + index + "'></td>"));
+          row.append($("<td><img class='imgBrowse' src='images/" + product.image + "' width='200px'></td>"));
+          row.append($("<td class='textBrowse' id='textData" + index + "'></td>"));
           var tableData = ($("#textData" + index));
           tableData.append($("<h2></h2>").text(product.name));
           tableData.append($("<h1></h1>").append($("<br>")));

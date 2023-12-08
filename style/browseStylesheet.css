@@ -63,7 +63,7 @@
 }
 
 
-td.text
+td.textBrowse
 {
     padding-left: 10%;
     width: 100%;
@@ -71,7 +71,7 @@ td.text
     flex-wrap: wrap;
 }
 
-.text > h1
+.textBrowse > h1
 {
     display: block;
     /*https://stackoverflow.com/a/47840689*/
@@ -79,20 +79,21 @@ td.text
 }
 
 
-td > img
+td > .imgBrowse
 {
+    
     border: 3px outset black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #00000050;
 }
 
-td.text > h2:hover
+td.textBrowse > h2:hover
 {
     text-decoration: underline;
     cursor: pointer;
 }
 
-td > img:hover
+td > .imgBrowse:hover
 {
     cursor: pointer;
 }

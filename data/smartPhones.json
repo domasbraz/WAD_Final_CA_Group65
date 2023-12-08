@@ -3,7 +3,7 @@
         "name": "iPhone 13",
         "price": "759",
         "category": "Smartphone",
-        "image": "images/iphone13.jpg",
+        "image": "iphone13.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone 13",
@@ -19,7 +19,7 @@
         "name": "iPhone 12 Pro",
         "price": "655",
         "category": "Smartphone",
-        "image": "images/iphone12pro.jpg",
+        "image": "iphone12pro.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone 12 Pro",
@@ -51,7 +51,7 @@
         "name": "iPhone SE",
         "price": "549",
         "category": "Smartphone",
-        "image": "images/iphoneSE.jpg",
+        "image": "iphoneSE.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone SE",
@@ -67,7 +67,7 @@
         "name": "Galaxy Z Fold5",
         "price": "2349",
         "category": "Smartphone",
-        "image": "images/galaxyZFold5.JPG",
+        "image": "galaxyZFold5.JPG",
         "details": {
             "brand": "Samsung",
             "model": "Galaxy Z Fold5",
@@ -83,7 +83,7 @@
         "name": "Galaxy S23",
         "price": "899",
         "category": "Smartphone",
-        "image": "images/Galaxy S23.jpg",
+        "image": "Galaxy S23.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Galaxy S23",
@@ -99,7 +99,7 @@
         "name": "Galaxy A34",
         "price": "409",
         "category": "Smartphone",
-        "image": "images/Galaxy A34.jpg",
+        "image": "Galaxy A34.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Galaxy A34",
@@ -115,7 +115,7 @@
         "name": "Galaxy S21",
         "price": "335.99",
         "category": "Smartphone",
-        "image": "images/Samsung Galaxy S21.jpg",
+        "image": "Samsung Galaxy S21.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Samsung Galaxy S21",
@@ -131,7 +131,7 @@
         "name": "Pixel 8",
         "price": "799",
         "category": "Smartphone",
-        "image": "images/Pixel 8.jpg",
+        "image": "Pixel 8.jpg",
         "details": {
             "brand": "Google",
             "model": "Pixel 8",
@@ -147,7 +147,7 @@
         "name": "Redmi Note 12 Pro",
         "price": "399.99",
         "category": "Smartphone",
-        "image": "images/Xiaomi Redmi Note 12 Pro.JPG",
+        "image": "Xiaomi Redmi Note 12 Pro.JPG",
         "details": {
             "brand": "Xiaomi Corporation",
             "model": "Xiaomi Redmi Note 12 Pro",
@@ -163,7 +163,7 @@
         "name": "Galaxy A14",
         "price": "179.99",
         "category": "Smartphone",
-        "image": "images/Samsung Galaxy A14.jpg",
+        "image": "Samsung Galaxy A14.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Samsung Galaxy A14",

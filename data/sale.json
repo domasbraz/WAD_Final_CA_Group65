@@ -1,0 +1,281 @@
+[
+    {
+        "name": "Omen 17.3' Notebook QHD",
+        "oldPrice": "2200",
+        "price": "2000",
+        "category": "Laptops",
+        "image": "images/hp_omen.jpg",
+        "details":
+        {
+            "brand": "HP",
+            "series": "OMEN",
+            "cpu": "Intel Core i7-13700HX",
+            "gpu": "NVIDIA GeForce RTX 4080",
+            "ram": "16 GB",
+            "storage": "1 TB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "83H02UA#ABA-E"            
+        }
+    },
+
+    {
+        "name": "Legion 5 15ARP8 15.6'",
+        "oldPrice": "1000",
+        "price": "900",
+        "category": "Laptops",
+        "image": "images/legion_5.jpg",
+        "details":
+        {
+            "brand": "Lenovo",
+            "series": "Legion",
+            "cpu": "AMD Ryzen 7",
+            "gpu": "NVIDIA GeForce RTX 4060",
+            "ram": "16 GB",
+            "storage": "512 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "grey",
+            "model": "83EF0002US"
+        }
+    },
+    {
+        "name": "Xbox original",
+        "oldPrice": "100",
+        "price": "60",
+        "category": "Consoles",
+        "image":"images/xbox-console.jpg",
+        "details":
+        {
+            "brand": "Microsoft",
+            "description": "The first Xbox, released by Microsoft on November 15, 2001, marked the company's entry into the highly competitive video game console market. Designed to compete with established consoles like Sony's PlayStation 2 and Nintendo's GameCube, the original Xbox brought a new level of power and innovation to the gaming industry.",
+            "year Released": "2001"
+        }
+    },
+
+    {
+        "name": "Xbox 360",
+        "oldPrice": "200",
+        "price": "100",
+        "category": "Consoles",
+        "image":"images/xbox360.jpg",
+        "details":
+        {
+            "brand": "Microsoft",
+            "description": "The Xbox 360, released by Microsoft on November 22, 2005, represents a significant milestone in the evolution of gaming consoles. Building upon the success and lessons learned from the original Xbox, the Xbox 360 introduced a range of innovations and features that contributed to its popularity and longevity in the gaming industry.",
+            "year Released": "2005"
+        }
+    },
+
+    {
+        "name": "Xbox one ",
+        "oldPrice": "300",
+        "price": "200",
+        "category": "Consoles",
+        "image":"images/xbox-one.jpg",
+        "details":
+        {
+            "brand": "Microsoft",
+            "description": " The Xbox One, released in 2013, is a high-performance gaming console by Microsoft. Equipped with an 8-core CPU, advanced GPU, and 8 GB of RAM, it delivers impressive graphics and responsive gameplay. The redesigned controller enhances precision, and the Kinect sensor offers innovative features like voice commands. Doubling as a multimedia hub, it supports Blu-ray, streaming, and cable integration.  The Xbox One provides an immersive and comprehensive entertainment experience.",
+            "year Released": "2013"
+        }
+    },
+
+    {
+        "name": "Xbox series X",
+        "oldPrice": "620",
+        "price": "500",
+        "category": "Consoles",
+        "image":"images/xbox-series-x.png",
+        "details":
+        {
+            "brand": "Microsoft",
+            "model": "The Xbox Series X, released in November 2020, is a powerhouse of gaming technology. Packed with an AMD processor, RDNA 2 GPU, and 16 GB of RAM, it delivers stunning 4K gaming at 60 fps (frames per second) and supports up to 120 fps. The console features a rapid NVMe SSD for quick load times and a spacious 1TB storage. The new Xbox Wireless Controller adds functionality, and the Series X maintains backward compatibility for a vast game library. With its sleek design and cutting-edge hardware, the Xbox Series X redefines the gaming experience.",
+            "year Released":"2020"
+        }
+    },
+
+  
+    {
+        "name": "Playstation",
+        "oldPrice": "108",
+        "price": "40",
+        "category": "Consoles",
+        "image":"images/ps1.jpg",
+        "details":
+        {
+            "brand": "Sony",
+            "description": "The original PlayStation, released in 1994, transformed the gaming landscape with its sleek design and powerful 32-bit processor. A pioneer in CD-ROM gaming, it brought iconic titles to life and set the stage for Sony's enduring impact on the industry.",
+            "year Released": "1994"
+        }
+    },
+
+    {
+        "name": "Playstation 2",
+        "oldPrice": "130",
+        "price": "100",
+        "category": "Consoles",
+        "image":"images/ps2.jpg",
+        "details":
+        {
+            "brand": "Sony",
+            "description": "The PlayStation 2, released by Sony in 2000, redefined gaming with its sleek design and powerful capabilities. Its extensive game library and built-in DVD player made it a household entertainment staple, leaving a lasting mark on the gaming world.",
+            "year Released": "2000"
+        }
+    },
+
+    {
+        "name": "Playstation Portable " ,
+        "oldPrice": "210",
+        "price": "60",
+        "category": "Consoles",
+        "image":"images/psp.jpg",
+        "details":
+        {
+            "brand": "Sony",
+            "description": "The PlayStation Portable (PSP), introduced by Sony in 2004, was a portable gaming revolution. With a sleek design, vibrant screen, and a vast library of games, it brought console-quality gaming on the go. The PSP remains a classic in handheld gaming history.",
+            "year Released": "2004"
+        }
+    },
+    {
+        "name": "iPhone 13",
+        "oldPrice": "1399",
+        "price": "759",
+        "category": "Smartphone",
+        "image": "images/iphone13.jpg",
+        "details": {
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "chip": "A15 Bionic with 4-core GPU for lightning-fast performance",
+            "storage": "128GB",
+            "color": "Black",
+            "camera": "Dual-camera system for incredible low-light photos and videos",
+            "screen": "6.1-inch Super Retina XDR display",
+            "batteryLife": "19 hours"
+        }
+    },
+    {
+        "name": "iPhone 12 Pro",
+        "oldPrice": "1230",
+        "price": "655",
+        "category": "Smartphone",
+        "image": "images/iphone12pro.jpg",
+        "details": {
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "chip": "A14 Bionic chip, the fastest chip ever in a smartphone",
+            "storage": "128GB",
+            "color": "Graphite",
+            "camera": "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+            "screen": "6.1-inch",
+            "batteryLife": "17 hours"
+        }
+    },
+    {
+        "name": "Galaxy A14",
+        "oldPrice": "200",
+        "price": "179.99",
+        "category": "Smartphone",
+        "image": "images/Samsung Galaxy A14.jpg",
+        "details": {
+            "brand": "Samsung",
+            "model": "Samsung Galaxy A14",
+            "chip": "Exynos 1330",
+            "storage": "64GB",
+            "color": "Black",
+            "camera": "50MP Camera",
+            "screen": "6.6-inch",
+            "batteryLife": "48 hours"
+        }
+    },
+
+    {
+        "name": "iPhone SE",
+        "oldPrice": "800",
+        "price": "549",
+        "category": "Smartphone",
+        "image": "images/iphoneSE.jpg",
+        "details": {
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "chip": "A15 Bionic chip with 4-core GPU",
+            "storage": "128 GB",
+            "color": "Starlight",
+            "camera": "Single-camera system 12MP Main",
+            "screen": "4.7-inch Retina HD display",
+            "batteryLife": "9 hours"
+        }
+    },
+    {
+        "name": "Redmi Note 12 Pro",
+        "oldPrice": "740",
+        "price": "399.99",
+        "category": "Smartphone",
+        "image": "images/Xiaomi Redmi Note 12 Pro.JPG",
+        "details": {
+            "brand": "Xiaomi Corporation",
+            "model": "Xiaomi Redmi Note 12 Pro",
+            "chip": "Qualcomm Snapdragon 685",
+            "storage": "128GB",
+            "color": "Midnight Black",
+            "camera": "50MP wide sensor,",
+            "screen": "6.67-inch",
+            "batteryLife": "30 hours"
+        }
+    },
+    {
+        "name": "Galaxy A14",
+        "oldPrice": "420",
+        "price": "179.99",
+        "category": "Smartphone",
+        "image": "images/Samsung Galaxy A14.jpg",
+        "details": {
+            "brand": "Samsung",
+            "model": "Samsung Galaxy A14",
+            "chip": "Exynos 1330",
+            "storage": "64GB",
+            "color": "Black",
+            "camera": "50MP Camera",
+            "screen": "6.6-inch",
+            "batteryLife": "48 hours"
+        }
+    },
+    {
+        "name": "Aspire 3 A315-58 15.6'",
+        "oldPrice": "700",
+        "price": "450",
+        "category": "Laptops",
+        "image": "images/aspire.jpg",
+        "details": 
+        {
+            "brand": "Acer",
+            "series": "Aspire 3",
+            "cpu": "Intel Core i3-1115G4",
+            "gpu": "Intel UHD Graphics",
+            "ram": "8 GB",
+            "storage": "256 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Black",
+            "model": "NX.AT0EK.009"
+        }
+    },
+    {
+        "name": "Surface Pro 8 13'",
+        "oldPrice": "720",
+        "price": "650",
+        "category": "Laptops",
+        "image": "images/surface.jpg",
+        "details": 
+        {
+            "brand": "Microsoft",
+            "series": "Surface",
+            "cpu": "Intel Core i5 11th Gen.",
+            "gpu": "Intel Iris Xe Graphics",
+            "ram": "8 GB",
+            "storage": "128 GB SSD",
+            "os": "Windows 11 Home",
+            "colour": "Platinum",
+            "model": "IUR-00001, IUR00001",
+            "features": "Touchscreen, Convertible 2-in-1 Laptop/Tablet"
+        }
+    }  
+]

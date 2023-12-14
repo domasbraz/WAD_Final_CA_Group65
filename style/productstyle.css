@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: #FFF7EF;
+}
+.nav-container{
+    width: auto;
+    list-style-type: none;
+    background-color: #C1AE9F;
+    overflow: hidden;
+    
+}
+.nav-container li {
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+    margin: 50px;
+}
+.nav-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.section
+{
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.section:hover
+{
+    background-color: #d2b7a2;
+}
+/*
+.product-list{
+   background-color: #8b5d45
+}
+
+
+.product-details{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-details-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-details-container img {
+    margin-right: 20px; /* Adjust margin as needed 
+  }
+  
+  .product-details-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-details-container li {
+    margin-bottom: 10px; /* Adjust margin as needed 
+  }
+  
+  .main{
+    background-color: #F8F4F2
+  }*/
+
+  .main {
+    background-color: #F8F4F2;
+    display: flex; 
+  }
+  
+  .list {
+    background-color: #f0dcd0; /* Background color for the list */
+    padding-left: 1%;
+    padding-top: 1%;/* Add padding for spacing */
+    
+  }
+
+  .list li {
+    border-bottom:  1px solid rgba(230, 171, 94, 0.76) ;
+  }
+
+  .list li:hover
+{
+    background-color: #e7cdb9;
+}
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin to prevent spacing */
+  }
+  
+  .product-details {
+    background-color: #ffffff; /* Background color for the product details */
+    padding: 20px; /* Add padding for spacing */
+     /* Add margin to separate from the list */
+    flex: 3; /* Use remaining space in flex container */
+  }
+  
+  .product-details-container {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .product-details-container img {
+    margin-right: 20px;
+  }
+  
+  .product-details-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-details-container li {
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    background-color: #ffffff; /* Background color for the product details */
+    padding: 20px; /* Add padding for spacing */
+    flex: 3;
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the element horizontally */
+  }

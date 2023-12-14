@@ -11,10 +11,10 @@ $(document).ready(function() {
           $("#item" + index).append($("<table id='table" + index + "'></table>"));
           $("#table" + index).append($("<tr id='row" + index + "'></tr>"));
           var row = $("#row" + index);
-          row.append($("<td><img class='imgBrowse' src='images/" + product.image + "' width='200px'></td>"));
+          row.append($("<td><img class='imgBrowse' src='images/" + product.image + "' width='200px' onclick='viewProduct(" + index + ")'></td>"));
           row.append($("<td class='textBrowse' id='textData" + index + "'></td>"));
           var tableData = ($("#textData" + index));
-          tableData.append($("<h2></h2>").text(product.name));
+          tableData.append($("<h2 onclick='viewProduct(" + index + ")'></h2>").text(product.name));
           tableData.append($("<h1></h1>").append($("<br>")));
           tableData.append($("<h1></h1>").text("€" + product.price));
 
@@ -22,7 +22,15 @@ $(document).ready(function() {
 
       })
   });
-})
+});
+
+function viewProduct(index)
+{
+    localStorage.setItem("itemIndex", index);
+
+    window.location.assign("products.html");
+}
+
 
 var success;
 
@@ -30,6 +38,7 @@ function searchBar()
 {
     if (success)
     {
+
         let serchTerm = new RegExp((document.getElementById("searchBar").value), "i");
 
         var categoryFilter = document.querySelector('input[name="Category"]:checked').value;
@@ -116,6 +125,7 @@ document.getElementById("searchBar").addEventListener("keydown", (event) =>
 	}
 }
 );
+
 function moreOptions()
 {
     move();
@@ -239,4 +249,5 @@ function inPriceRange(value, range)
             return (value >= 1000);
     }
 }
+
 

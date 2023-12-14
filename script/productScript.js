@@ -39,15 +39,30 @@ function showProductDetails(product) {
 function populateProductList(products) {
   const productListContainer = document.getElementById('productList');
 
-  products.forEach(product => {
+  $.each(products, function(index, product) {
+
+    //lines 44-51 made by Domas Brazdeikis
+    //gets product index set by "browse" page
+    var itemIndex = localStorage.getItem("itemIndex");
+    //if index matches the current product index in the loop, display the product info
+    if (itemIndex == index)
+    {
+      showProductDetails(product);
+    }
+
+    /*
       const listItem = document.createElement('li');
       listItem.className = 'product-item';
       listItem.textContent = product.name;
 
       // Add click event listener to show product details
+      
       listItem.addEventListener('click', () => showProductDetails(product));
+      
 
       productListContainer.appendChild(listItem);
+      */
+
   });
 }
 

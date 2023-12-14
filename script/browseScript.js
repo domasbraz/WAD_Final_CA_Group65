@@ -20,6 +20,8 @@ $(document).ready(function() {
 
           success = true;
 
+          setCategory();
+
       })
   });
 });
@@ -220,10 +222,10 @@ function reSize()
 
 }
 
-function alertChecked()
+/*function alertChecked()
 {
     alert(document.querySelector('input[name="Category"]:checked').value);
-}
+}*/
 
 function changeChecked(value)
 {
@@ -250,4 +252,14 @@ function inPriceRange(value, range)
     }
 }
 
+function setCategory()
+{
+    let category = localStorage.getItem("itemCategory");
+
+    if (category.length > 0)
+    {
+        changeChecked(category);
+        searchBar();
+    }
+}
 

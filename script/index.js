@@ -3,6 +3,7 @@ function btnClick() {
     const btn = document.getElementById("btn");
     $(document).ready(function () {
         $.getJSON("data/sale.json", function (data) {
+
             const location = $("#items"); 
             location.empty(); 
             const shuffledData = shuffleArray(data);
@@ -10,13 +11,31 @@ function btnClick() {
             for (let i = 0; i < 3; i++) {
                 const product = shuffledData[i]; 
                 if (product) {
+
+                    //json index mismatch fix
+                    getCorrectIndex(product, function(index) 
+                    {
+                        
+                        //appends HTML elements to the "items" element to display product details
+                        location.append($("<div class='name' id='name" + i + "' onclick='viewProduct(" + index + ")'></div>"));
+                        $("#name" + i).append($("<p></p>").text(product.details.brand))
+                        $("#name" + i).append($("<p></p>").text(product.name))
+                        $("#name" + i).append($("<p></p>").html("<s>€" + product.oldPrice + "</s>"));
+                        $("#name" + i).append($("<p></p>").text("€" + product.price))
+                        $("#name" + i).append($("<img class='indexImg' src='../images/" + product.image + "'>"))
+
+                    });
+                    
+
+                    /*
                     //appends HTML elements to the "items" element to display product details
-                    location.append($("<div class='name' id='name" + i + "'></div>"));
+                    location.append($("<div class='name' id='name" + i + "' onclick='viewProduct(" + i + ")'></div>"));
                     $("#name" + i).append($("<p></p>").text(product.details.brand))
                     $("#name" + i).append($("<p></p>").text(product.name))
                     $("#name" + i).append($("<p></p>").html("<s>€" + product.oldPrice + "</s>"));
                     $("#name" + i).append($("<p></p>").text("€" + product.price))
-                    $("#name" + i).append($("<img class='indexImg' src='../" + product.image + "'>"))
+                    $("#name" + i).append($("<img class='indexImg' src='../images/" + product.image + "'>"))
+                    */
                 }
             }
         });
@@ -28,4 +47,51 @@ function btnClick() {
         }
         return array;
     }
+}
+
+//line 52-97 by Domas Brazdeikis
+//redirect user to item info page using item index
+function viewProduct(index)
+{
+    localStorage.setItem("itemIndex", index);
+
+    window.location.assign("products.html");
+}
+
+/*full explanatin:
+Adam has used a seperate json file for his code, this file does not match the index of "products" file
+therefore the "products" index must be identified in order to view the products
+this function indentifies the right index to set the correct parameter for the onclick event
+*/
+function getCorrectIndex(product, callback)
+{
+    var indexVal;
+    //gets the main products file that has every product
+    $.getJSON("data/products.json", function (items)
+    {
+        
+        $.each(items, function(index, original)
+        {
+            //checks for matching unique data
+            if (product.image == original.image)
+            {
+                indexVal = index;
+                //stops the loop
+                return false;
+            }
+        }
+        );
+        //$.getJSON function is asynchronous, therefore a callback function is neccessary to return the variable
+        callback(indexVal);
+    }
+    );
+    
+}
+
+//sets category and redirects user to browse page
+function chooseCategory(category)
+{
+    localStorage.setItem("itemCategory", category);
+
+    window.location.assign("browse.html");
 }

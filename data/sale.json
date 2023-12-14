@@ -4,7 +4,7 @@
         "oldPrice": "2200",
         "price": "2000",
         "category": "Laptops",
-        "image": "images/hp_omen.jpg",
+        "image": "hp_omen.jpg",
         "details":
         {
             "brand": "HP",
@@ -24,7 +24,7 @@
         "oldPrice": "1000",
         "price": "900",
         "category": "Laptops",
-        "image": "images/legion_5.jpg",
+        "image": "legion_5.jpg",
         "details":
         {
             "brand": "Lenovo",
@@ -43,7 +43,7 @@
         "oldPrice": "100",
         "price": "60",
         "category": "Consoles",
-        "image":"images/xbox-console.jpg",
+        "image":"xbox-console.jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -57,7 +57,7 @@
         "oldPrice": "200",
         "price": "100",
         "category": "Consoles",
-        "image":"images/xbox360.jpg",
+        "image":"xbox360.jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -71,7 +71,7 @@
         "oldPrice": "300",
         "price": "200",
         "category": "Consoles",
-        "image":"images/xbox-one.jpg",
+        "image":"xbox-one.jpg",
         "details":
         {
             "brand": "Microsoft",
@@ -85,7 +85,7 @@
         "oldPrice": "620",
         "price": "500",
         "category": "Consoles",
-        "image":"images/xbox-series-x.png",
+        "image":"xbox-series-x.png",
         "details":
         {
             "brand": "Microsoft",
@@ -100,7 +100,7 @@
         "oldPrice": "108",
         "price": "40",
         "category": "Consoles",
-        "image":"images/ps1.jpg",
+        "image":"ps1.jpg",
         "details":
         {
             "brand": "Sony",
@@ -114,7 +114,7 @@
         "oldPrice": "130",
         "price": "100",
         "category": "Consoles",
-        "image":"images/ps2.jpg",
+        "image":"ps2.jpg",
         "details":
         {
             "brand": "Sony",
@@ -128,7 +128,7 @@
         "oldPrice": "210",
         "price": "60",
         "category": "Consoles",
-        "image":"images/psp.jpg",
+        "image":"psp.jpg",
         "details":
         {
             "brand": "Sony",
@@ -141,7 +141,7 @@
         "oldPrice": "1399",
         "price": "759",
         "category": "Smartphone",
-        "image": "images/iphone13.jpg",
+        "image": "iphone13.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone 13",
@@ -158,7 +158,7 @@
         "oldPrice": "1230",
         "price": "655",
         "category": "Smartphone",
-        "image": "images/iphone12pro.jpg",
+        "image": "iphone12pro.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone 12 Pro",
@@ -175,7 +175,7 @@
         "oldPrice": "200",
         "price": "179.99",
         "category": "Smartphone",
-        "image": "images/Samsung Galaxy A14.jpg",
+        "image": "Samsung Galaxy A14.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Samsung Galaxy A14",
@@ -193,7 +193,7 @@
         "oldPrice": "800",
         "price": "549",
         "category": "Smartphone",
-        "image": "images/iphoneSE.jpg",
+        "image": "iphoneSE.jpg",
         "details": {
             "brand": "Apple",
             "model": "iPhone SE",
@@ -210,7 +210,7 @@
         "oldPrice": "740",
         "price": "399.99",
         "category": "Smartphone",
-        "image": "images/Xiaomi Redmi Note 12 Pro.JPG",
+        "image": "Xiaomi Redmi Note 12 Pro.JPG",
         "details": {
             "brand": "Xiaomi Corporation",
             "model": "Xiaomi Redmi Note 12 Pro",
@@ -227,7 +227,7 @@
         "oldPrice": "420",
         "price": "179.99",
         "category": "Smartphone",
-        "image": "images/Samsung Galaxy A14.jpg",
+        "image": "Samsung Galaxy A14.jpg",
         "details": {
             "brand": "Samsung",
             "model": "Samsung Galaxy A14",
@@ -244,7 +244,7 @@
         "oldPrice": "700",
         "price": "450",
         "category": "Laptops",
-        "image": "images/aspire.jpg",
+        "image": "aspire.jpg",
         "details": 
         {
             "brand": "Acer",
@@ -263,7 +263,7 @@
         "oldPrice": "720",
         "price": "650",
         "category": "Laptops",
-        "image": "images/surface.jpg",
+        "image": "surface.jpg",
         "details": 
         {
             "brand": "Microsoft",

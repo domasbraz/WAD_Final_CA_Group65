@@ -15,7 +15,7 @@
         <div class="nav-container">
 
             <div class="section"><li><a href="index.html">Home</a></li></div>
-            <div class="section"><li><a href="browse.html">Browse</a></li></div>
+            <div class="section"><li><a href="browse.html" onclick="chooseCategory('')">Browse</a></li></div>
 
         </div>
     
@@ -55,6 +55,9 @@
                     <input type="radio" name="Category" id="" value="smartphone">
                     <label for="smartphone" onclick="changeChecked('smartphone')">Smart Phones</label>
                     <br>
+                    <input type="radio" name="Category" id="" value="consoles">
+                    <label for="consoles" onclick="changeChecked('consoles')">Game Consoles</label>
+                    <br>
 
                     <br><br>
                     <b>Price:</b>
@@ -74,10 +77,6 @@
                 </p>
                 <p class="btn"><button class="searchbtn" onclick="searchBar()">Search</button></p>
             </div>
-
-
-            
-            
 
         </div>
 

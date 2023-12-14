@@ -74,3 +74,12 @@ $(document).ready(function () {
     populateProductList(data);
   });
 });
+
+//made by Domas Brazdeikis
+//sets category and redirects user to browse page (used for reseting category)
+function chooseCategory(category)
+{
+    localStorage.setItem("itemCategory", category);
+
+    window.location.assign("browse.html");
+}

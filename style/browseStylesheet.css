@@ -213,5 +213,7 @@ myTag
 {
     text-align: center;
     color: red;
+    width: 100%;
+    font-size: 20px;
 }
 

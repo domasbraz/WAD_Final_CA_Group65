@@ -24,7 +24,7 @@ function btnClick() {
                         $("#name" + i).append($("<p></p>").text(product.name))
                         $("#name" + i).append($("<p></p>").html("<s>€" + product.oldPrice + "</s>"));
                         $("#name" + i).append($("<p></p>").text("€" + product.price))
-                        $("#name" + i).append($("<img class='indexImg' src='../images/" + product.image + "'>"))
+                        $("#name" + i).append($("<img class='indexImg' src='images/" + product.image + "'>"))
                     });
                 }
             }

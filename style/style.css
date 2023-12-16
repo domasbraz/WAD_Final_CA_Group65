@@ -96,6 +96,7 @@ body{
     flex-wrap: wrap;
     width: 33.12%;
     border: 1px solid black;
+    overflow: hidden;
 }
 /*targets elements with the class "indexImg"*/
 .name > .indexImg{

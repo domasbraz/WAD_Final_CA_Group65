@@ -5,7 +5,7 @@ function btnClick() {
     $(document).ready(function () {
        //makes AJAX call to load the json data from the file
         $.getJSON("data/sale.json", function (data) {
-            //gets location of where products should be
+            //gets location of where products will be placed
             const location = $("#items"); 
             //clears location in case products are already there, to maintain only 3 elements at a time on the webpage
             location.empty(); 

@@ -1,3 +1,4 @@
+//Aarons page, dom did a few bits to connect 
 function showProductDetails(product) {
   const productDetailsContainer = document.getElementById('productDetails');
   productDetailsContainer.innerHTML =
@@ -49,7 +50,7 @@ function populateProductList(products) {
     {
       showProductDetails(product);
     }
-
+//Aaron made this to show products and test functionality when doms and aarons page werent connected, we decided to get rid of it to make it look better
     /*
       const listItem = document.createElement('li');
       listItem.className = 'product-item';

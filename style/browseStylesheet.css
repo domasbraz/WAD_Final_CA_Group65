@@ -1,3 +1,5 @@
+/* made by Domas Brazdeikis */
+
 *
 {
     font-family: 'Trebuchet MS';
@@ -6,7 +8,6 @@
 #content
 {
     height: 100%;
-
     position: absolute;
     width: 100%;
 }
@@ -81,7 +82,6 @@ td.textBrowse
 
 td > .imgBrowse
 {
-    
     border: 3px outset black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #00000050;
@@ -100,7 +100,6 @@ td > .imgBrowse:hover
 
 #more
 {
-
     border: 2px solid black;
     min-width: 200px;
     background-color: white;
@@ -112,7 +111,6 @@ td > .imgBrowse:hover
     z-index: -5;
     visibility: visible;
     box-shadow: 4px 3px 4px #00000070;
-
 }
 
 #more:hover
@@ -121,6 +119,7 @@ td > .imgBrowse:hover
     box-shadow: 5px 4px 5px #00000080;
 }
 
+/* this was just used to change the size of one specific character*/
 myTag
 {
     font-size: 20px;

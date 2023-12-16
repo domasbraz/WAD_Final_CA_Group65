@@ -375,7 +375,7 @@
         "name": "Xbox original",
         "price": "60",
         "category": "Consoles",
-        "image":"xbox-console.jpg",
+        "image":"Xbox-console.jpg",
         "details":
         {
             "brand": "Microsoft",
